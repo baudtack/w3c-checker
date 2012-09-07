@@ -1,0 +1,21 @@
+* w3c-checker
+** A simple perl script to pull down the source of a page and push it to the w3c validator for checking.
+
+** Rational
+   I've often had occasion where I'm running a local development server that 
+   isn't web accessible (django for example). Combine this with the fact that
+   many pages are rendered on the fly, as in the case where a template system
+   is being used, and the validator becomes difficult to use. I have to either 
+   make a publicly available development server,  which is more work, or copy 
+   and paste the completed source by hand into the validator which is a pain. 
+   So what I've done to avoid this problem is write a perl script that will 
+   fetch the page and push it up to the validator.
+
+** Use
+   ./w3c-checker url
+   
+
+** TODO 
+*** Add support for CSS validation
+*** Add color support
+*** emacs integration

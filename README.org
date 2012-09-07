@@ -1,5 +1,5 @@
 * w3c-checker
-** A simple perl script to pull down the source of a page and push it to the w3c validator for checking.
+  A simple perl script to pull down the source of a page and push it to the w3c validator for checking.
 
 ** Rational
    I've often had occasion where I'm running a local development server that 
@@ -13,9 +13,3 @@
 
 ** Use
    ./w3c-checker url
-   
-
-
-** TODO Add support for CSS validation
-** TODO Add color support
-** TODO emacs integration

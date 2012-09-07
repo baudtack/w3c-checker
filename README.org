@@ -15,7 +15,7 @@
    ./w3c-checker url
    
 
-** TODO 
-*** Add support for CSS validation
-*** Add color support
-*** emacs integration
+
+** TODO Add support for CSS validation
+** TODO Add color support
+** TODO emacs integration
